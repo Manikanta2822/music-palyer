@@ -1,5 +1,5 @@
 import React from "react";
-import { useMusic } from "../context/MusicContext";
+import { useMusic } from "../Context/MusicContext";
 import { FaStepBackward, FaStepForward } from "react-icons/fa";
 
 const MusicPlayer = () => {
