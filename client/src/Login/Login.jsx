@@ -26,7 +26,7 @@ export default function Login() {
     setError("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/login", formData);
+      const response = await axios.post("https://music-palyer.onrender.com/api/auth/login", formData);
       const { token } = response.data;
 
       localStorage.setItem("token", token);

@@ -31,7 +31,7 @@ export default function Register() {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/auth/signup", formData);
+      await axios.post("https://music-palyer.onrender.com/api/auth/signup", formData);
       setSuccess("Signup successful! Redirecting...");
       setTimeout(() => navigate("/login"), 2000);
     } catch (err) {

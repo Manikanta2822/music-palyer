@@ -19,7 +19,7 @@ export default function Home() {
 
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/music/search?query=top&offset=${reset ? 0 : offset}`,
+        `https://music-palyer.onrender.com/api/music/search?query=top&offset=${reset ? 0 : offset}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       if (reset) {

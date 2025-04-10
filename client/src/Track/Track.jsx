@@ -30,7 +30,7 @@ const Track = () => {
       try {
         // ✅ Fetch track details
         const trackRes = await axios.get(
-          `http://localhost:5000/api/music/track/${trackId}`
+          `https://music-palyer.onrender.com/api/music/track/${trackId}`
         );
         const trackData = trackRes.data;
 

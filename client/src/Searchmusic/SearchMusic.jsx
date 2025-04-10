@@ -25,7 +25,7 @@ export default function SearchMusic() {
 
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/music/search?query=${query}&offset=0`,
+        `https://music-palyer.onrender.com/api/music/search?query=${query}&offset=0`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setResults(response.data);
@@ -44,7 +44,7 @@ export default function SearchMusic() {
 
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/music/search?query=${query}&offset=${offset}`,
+        `https://music-palyer.onrender.com/api/music/search?query=${query}&offset=${offset}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setResults((prev) => [...prev, ...response.data]);
