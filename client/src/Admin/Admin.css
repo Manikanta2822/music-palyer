@@ -1,0 +1,29 @@
+.user-card {
+    background: linear-gradient(135deg, #6c5ce7, #00cec9);
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-icon {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .user-icon i {
+    color: white;
+  }
+  
+
+  

@@ -1,0 +1,31 @@
+.track-page {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.track-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(15px) brightness(0.4);
+  z-index: -1;
+}
+
+.track-overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.track-details {
+  color: white;
+}
+
+.track-image {
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}

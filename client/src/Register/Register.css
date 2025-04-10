@@ -1,0 +1,51 @@
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 450px;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.register-card:hover {
+  transform: scale(1.015);
+}
+
+.register-container input::placeholder {
+  color: #ccc !important;
+}
+
+.register-container .btn-warning {
+  background: #ffc107 !important;
+  border: none !important;
+}
+
+.register-container .btn-warning:hover {
+  background: #e0a800 !important;
+  transform: scale(1.02);
+}
+
+.register-container .alert {
+  font-size: 0.9rem;
+}
+.register-card input,
+.register-card button {
+  transition: all 0.3s ease;
+}
+.register-card input:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}

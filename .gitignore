@@ -1,0 +1,44 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Environment variables ===
+.env
+.env.*.local
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+
+# === Runtime data ===
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === Coverage ===
+coverage/
+*.lcov
+
+# === Build output ===
+dist/
+build/
+
+# === Vite ===
+.vite/
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.swp
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === React Native (if used) ===
+.expo/

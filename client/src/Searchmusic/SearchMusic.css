@@ -1,0 +1,53 @@
+.search-music-bg {
+    background: linear-gradient(to right, #434343, #000000);
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  .glowing-search-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 0 0 8px #fff, 0 0 10px #ff9a9e, 0 0 20px #fad0c4;
+  }
+  
+  .search-input {
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+  
+  .custom-result-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-result-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  /* Gradient card themes */
+  .card-color-0 {
+    background: linear-gradient(to top left, #ff758c, #ff7eb3);
+  }
+  .card-color-1 {
+    background: linear-gradient(to top right, #43e97b, #38f9d7);
+  }
+  .card-color-2 {
+    background: linear-gradient(to top right, #30cfd0, #330867);
+  }
+  .card-color-3 {
+    background: linear-gradient(to bottom left, #ff9966, #ff5e62);
+  }
+  .card-color-4 {
+    background: linear-gradient(to bottom right, #8e2de2, #4a00e0);
+  }
+  
+  .btn-light:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+    color: #000;
+  }
+  

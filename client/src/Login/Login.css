@@ -1,0 +1,36 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  padding: 20px;
+}
+
+.login-container .login-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(141, 132, 132, 0.07);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.login-container .login-card:hover {
+  transform: scale(1.015);
+}
+
+.login-container input::placeholder {
+  color: #ccc !important;
+}
+
+.login-container .btn-warning {
+  background: #ffc107 !important;
+  border: none !important;
+}
+
+.login-container .btn-warning:hover {
+  background: #e0a800 !important;
+  transform: scale(1.02);
+}
