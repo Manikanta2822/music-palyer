@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { useMusic } from '../context/MusicContext';
+import { useMusic } from '../Context/MusicContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaSearch, FaPlay, FaPlus } from 'react-icons/fa';
 import './SearchMusic.css';
